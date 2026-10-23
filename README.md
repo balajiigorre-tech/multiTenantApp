@@ -4,7 +4,7 @@ A small multi-tenant app: **workspaces → projects → notes**, with tenant iso
 (PostgreSQL row-level security), server-verified authentication, role-based permissions, and an LLM
 "Summarize project" action behind a provider interface (mock included, no API keys).
 
-**Screen recording (5–8 min):** _<paste link here>_
+**Screen recording (5–8 min):** _Pending; add a publicly accessible link before submission._
 
 Stack: TypeScript · Next.js 15 (App Router) · Node.js · PostgreSQL 16 · Zod · Vitest.
 
@@ -108,7 +108,7 @@ Log in as **bob** (Acme only). Globex ids: workspace `a0000000-0000-4000-8000-00
 - Observability: structured logs with request ids, metrics on 4xx/5xx and summary validation failures.
 
 ## AI usage
-See [`ai-log/`](./ai-log) for the complete, unedited session history.
+See [`ai-log/`](./ai-log) for the available Claude and Copilot conversation captures. They are not complete, unedited native exports; add the full session transcripts before submission.
 
 ## Layout
 ```
@@ -118,3 +118,8 @@ src/lib/         db (withUser), auth, services (authz + queries), summary (pure)
 src/app/api/     route handlers (thin)    src/components/  UI
 tests/           isolation · auth · summary · summarize
 ```
+
+
+### Recorded video link
+
+https://drive.google.com/file/d/1YLiVoQmpFLmp6HU_4SNhfEZAWJstBY7e/view?usp=drive_link
